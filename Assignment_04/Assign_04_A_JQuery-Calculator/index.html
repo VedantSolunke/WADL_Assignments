@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simple Calculator using JQuery">
+    <meta name="keywords" content="calculator, arithmetic, math, JQuery">
+    <title>Calculator with Tailwind CSS</title>
+    <!-- External Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- JQuery Library -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center h-screen flex-col">
+    <h1 class="text-4xl mb-8">jQuery Assignment</h1>
+    <div class="calculator bg-white p-8 rounded-lg shadow-md">
+        <div class="flex justify-between items-center mb-4">
+            <input type="text" name="" value="" class="input1 border rounded px-2 py-1" placeholder="Enter number">
+            <input type="text" name="" value="" class="input2 border rounded px-2 py-1" placeholder="Enter number">
+            <span class="mx-2">=</span>
+            <span class="answer font-semibold"></span>
+        </div>
+        <div class="flex justify-between">
+            <button type="button" name="button" id="addition" class="btn bg-blue-500 text-white rounded px-4 py-2">+</button>
+            <button type="button" name="button" id="subtraction" class="btn bg-blue-500 text-white rounded px-4 py-2">-</button>
+            <button type="button" name="button" id="multiplication" class="btn bg-blue-500 text-white rounded px-4 py-2">*</button>
+            <button type="button" name="button" id="division" class="btn bg-blue-500 text-white rounded px-4 py-2">/</button>
+        </div>
+    </div>
+    <!-- External JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
